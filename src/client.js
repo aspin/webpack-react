@@ -1,3 +1,5 @@
+// @flow
+
 /**
  * Created by kevin.chen on 7/10/17.
  */
@@ -14,6 +16,12 @@ class App extends Component {
         )
     }
 }
+
+function addOne(x: number): number {
+    return x + 1;
+}
+
+const x = addOne(2);
 
 ReactDOM.render(<App/>, document.getElementById('root'));
 
