@@ -3,6 +3,6 @@ Super minimal.
 
 
 ## Potential Todos
- * flux
+ * flow
  * hot module reload
  * css?
