@@ -1,9 +1,9 @@
 {
-  "name": "pokemon-iv-calculator",
+  "name": "webpack-react-app",
   "version": "1.0.0",
-  "description": "A simple IV calculator app for Pokemon",
+  "description": "Super minimal webpack React application",
   "repository": "git@github.com:aspin/pokemon-iv-calculator.git",
-  "author": "Kevin Chen <kevin.chen@fitbit.com> (http://kevinchen.ninja/)",
+  "author": "Kevin Chen <kevinjchen94@gmail.com> (http://kevinchen.ninja/)",
   "license": "MIT",
   "dependencies": {
     "path": "^0.12.7",
