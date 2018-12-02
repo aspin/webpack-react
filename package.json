@@ -6,7 +6,7 @@
   "author": "Kevin J. Chen <kevinjchen94@gmail.com> (http://kevinchen.ninja/)",
   "license": "MIT",
   "dependencies": {
-    "bootstrap": "3.3.7",
+    "bootstrap": ">=4.1.2",
     "lodash": "^4.17.10",
     "react": "^16.4.0",
     "react-bootstrap": "^0.32.1",
