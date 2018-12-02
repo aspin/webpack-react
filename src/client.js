@@ -1,27 +1,24 @@
-// @flow
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-/**
- * Created by kevin.chen on 7/10/17.
- */
-
-import React, {Component} from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './App';
+import {AppContainer} from 'react-hot-loader';
 
-class App extends Component {
-    render() {
-        return (
-            <div>
-                <h1>Hello world</h1>
-            </div>
-        )
-    }
+function render(Component) {
+  ReactDOM.render(
+  <AppContainer>
+    <Component/>
+  </AppContainer>,
+  document.getElementById('root')
+);
 }
 
-function addOne(x: number): number {
-    return x + 1;
+render(App);
+
+if (module.hot) {
+  module.hot.accept('./App.js', () => {
+    const NextApp = require('./App.js').default;
+    render(NextApp);
+  });
 }
-
-const x = addOne(2);
-
-ReactDOM.render(<App/>, document.getElementById('root'));
-
